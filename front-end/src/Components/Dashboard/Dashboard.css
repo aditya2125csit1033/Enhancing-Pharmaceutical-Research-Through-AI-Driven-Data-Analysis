@@ -1,0 +1,397 @@
+.main{
+
+     /* margin-top: 3.5vh; */
+    display: flex;
+    justify-content: space-between;
+    height: 100vh; 
+    width: 100vw; 
+    position: relative;
+}
+
+
+.left{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    /* padding: 12px; */
+    width: 20%;
+    background: rgb(34, 39, 46);
+    /* height: 85vh; */
+}
+.right{
+    background: #E1D5EC;
+
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    width: 80%;
+}
+.ham{
+    padding-top: 4px ;
+    padding-right: 10px;
+padding-bottom: 11px;
+padding-left: 7px;
+}
+.noham{
+    font-size: larger;
+    display: flex;
+}
+
+.imi{
+    padding-top: 4px;
+    padding-left: 1vw;
+
+}
+.lists{
+    
+    
+    background: rgb(34, 39, 46);
+    border: 1.592px solid white ;
+    border-radius: 20px;
+    padding: 8px;
+    border-radius: 6px;
+}
+.pt:hover{
+    font-weight: bolder;
+}
+.hm1{
+    background: rgb(34, 39, 46);
+    border: 1.592px solid white;
+    padding: 4px;
+    margin-top: 7px;
+    border-radius: 6px;
+}
+.footer{
+    position: absolute;
+    bottom: 10px;
+    left: 15px;
+
+}
+
+.logout:hover{
+    
+    box-shadow: 4px 3px 4px rgb(129, 132, 132);
+    font-weight: bolder;
+}
+.updateprofile:hover{
+    font-weight:bolder;
+    box-shadow: 4px 3px 4px rgb(129, 132, 132);
+    
+}
+.pt{
+    margin-top: 5px;
+    background: rgb(34, 39, 46);
+    border: 1.592px solid white;
+    padding: 8px;
+    border-radius: 10px;
+}
+.helios{
+    margin-top: 5px;
+    height: 25px;
+    width: 25px;
+    filter: invert(1);
+}
+.hamburger{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    filter: invert(1);
+    z-index: 2;
+}
+.hamim{
+    height: 100%;
+    width: 30px;
+}
+.updatedb{
+    position: absolute;
+    top: 250px;
+    left: 38%;
+    right: 38%;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 300px;
+    background-color: rgb(34, 39, 46);
+    border: 2px solid white;
+    border-radius: 7px;
+padding: 4px;
+    
+}
+.textbox2{
+    border-radius: 7px;
+    background: transparent;
+    height: 40px;
+    width: 250px;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 11px;
+    margin-bottom: 35px;
+}
+.subbutone{
+
+    border: none;
+    background: transparent;
+    color: white;
+    font-size: large;
+    
+}
+.subbutone:hover{
+    border: none;
+    background: transparent;
+    color: white;
+    font-weight: 700;
+    font-size: large;
+}
+
+
+.topper{
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    right: 50px;
+}
+.dashboard{
+    margin-top: 10px;
+    border-radius: 10px;
+    background: rgb(34, 39, 46);
+    
+    
+}
+.dashboard img{
+    height: 18px;
+    padding-right: 4px;
+}
+.reports img{
+    height: 18px;
+    padding-right: 4px;
+}
+.account{
+    margin-top: 10px;
+    border-radius: 10px;
+    
+    
+}
+.reports{
+    margin-top: 10px;
+    border-radius: 10px;
+    background: rgb(34, 39, 46);
+}
+.settings{
+    margin-top: 10px;
+    border-radius: 10px;
+    background: rgb(34, 39, 46);
+}
+.settings img{
+    height: 18px;
+    padding-right: 4px;
+
+}
+.button1{
+    background: transparent;
+    border: 1.2px solid white;
+    color: white;
+    border-radius: 6px;
+    padding: 4px;
+}
+.button1:hover{
+    background: transparent;
+    border: 1.6px solid white;
+    color: white;
+    border-radius: 6px;
+    padding: 4px;
+    font-weight: bolder;
+}
+.button2{
+    background: transparent;
+    border: 1.2px solid white;
+    color: white;
+    border-radius: 6px;
+    padding: 4px;
+    
+}
+.button2:hover{
+    background: transparent;
+    border: 1.6px solid white;
+    color: white;
+    border-radius: 6px;
+    padding: 4px;
+    font-weight: bolder;
+}
+.mess{
+    margin-bottom: 10px;
+
+}
+.upsub{
+    display: flex;
+    justify-content: space-between;
+
+}
+.collapse_menu{
+    width: 9vw;
+}
+.L_Chat{
+    position: absolute;
+    background-color: rgb(225, 213, 236);
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    border: 5px solid rgb(206, 198, 198);
+    box-shadow: 4px 3px 15px rgb(129, 132, 132);
+    margin-top: 28px;
+    margin-bottom: 25px;
+    margin-left: 35px;
+    margin-right: 35px;
+    border-radius: 23px;
+    
+}
+.L_Foot{
+
+    position: absolute;
+    left: 80px;
+    right: 80px;
+    height: 60px;
+    bottom: 40px;
+    border-radius: 20px;
+    background-color: white;
+    border: 2px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+    position: absolute;
+    left: 80px;
+    color: black;
+    font-size: 40px;
+}
+.attach{
+    height: 50px;
+    position: absolute;
+    left: 18px;
+}
+.attach:hover{
+    height: 60px;
+    position: absolute;
+    left: 18px;
+}
+.dialog{
+ z-index: 1;
+ height: 40px;
+ width: 180px;
+ border-radius: 6px;
+ background: rgb(255, 255, 255);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ position: absolute;
+ left: 14px;
+ top: -49px;
+ color: black;
+}
+.tdiag{
+    z-index: 0;
+    height: 40px;
+ width: 60px;
+    height: 50px;
+    position: absolute;
+    left: 14px;
+    top: -49px;
+    filter: invert(1);
+
+    }
+.form input{
+    position: absolute;
+    left: 80px;
+    right: 85px;
+    top: 11px;
+    height: 28px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 4px;
+    background: transparent;
+    
+}
+.sendIcon{
+    height: 50px;
+    position: absolute;
+    right: 20px;
+    top: 2px;
+}
+.sendIcon:hover{
+    height: 60px;
+    position: absolute;
+    right: 20px;
+}
+.chatarea{
+    padding: 14px;
+    background: rgb(99, 98, 98);
+    position: absolute;
+    display: flex;
+  flex-direction: column; 
+  justify-content: flex-start;
+    top: 100px;
+    bottom: 120px;
+    left: 10px;
+    right: 10px;
+    border-radius: 8px;
+    overflow: scroll;
+}
+.fade-enter {
+
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .fade-enter-active {
+    opacity: 1;
+  }
+  .text{
+    max-width: 300px;
+    overflow-wrap: break-word;
+  }
+  .sent-text{
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding: 2px;
+    
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+
+    font-weight: 100;
+    font-size: 25px;
+    padding: 2px;
+    /* text-wrap: wrap; */
+  }
+  .received-text{
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding: 2px;
+    
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+
+    font-weight: 100;
+    font-size: 25px;
+    padding: 2px;
+  }
+  .text-boxx{
+    display: flex;
+    justify-content: right;
+  }
+  .text-boxxr{
+    display: flex;
+    justify-content: left;
+<<<<<<< HEAD
+  }
+=======
+  }
+>>>>>>> 12d252c1254f4ee12869a063e488ac934e1d65a3
