@@ -3,12 +3,12 @@
 
 ## Project Overview
 
-The Pharmaceutical Research AI Tool is a web-based application designed to accelerate pharmaceutical research by analyzing and interpreting data from diverse sources. Researchers can upload various file types (e.g., PDFs, text documents, spreadsheets), and the AI-driven system provides answers to research queries, streamlining data processing and decision-making.
+The Pharmaceutical Research AI Tool is a web-based application designed to accelerate pharmaceutical research by analyzing and interpreting data from diverse sources. Researchers can upload various file types (e.g., PDFs, text documents, docx.), and the AI-driven system provides answers to research queries, streamlining data processing and decision-making.
 
 ## Key Features
 
 1. **File Upload & Categorization:**
-   - Upload multiple file types such as PDFs, spreadsheets, and text documents.
+   - Upload multiple file types such as PDFs and text documents.
    - Automatically categorize files based on their content (e.g., research papers, experimental data, clinical trial results).
 
 2. **Question Processing:**
